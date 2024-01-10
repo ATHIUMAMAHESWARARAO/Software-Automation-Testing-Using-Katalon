@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Dropdown validation_001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a593099-75e2-445a-802f-f872ff81ddbb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fc9e1212-346d-4c86-8b64-acfa14e9e808</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>75e47061-6ed7-4a78-b8d9-c86522f7ff63</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>25ddaef5-2c10-4e20-83e4-94d77d2c9dad</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>fc9e1212-346d-4c86-8b64-acfa14e9e808</id>
+      <masked>false</masked>
+      <name>dayElement</name>
+   </variable>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>75e47061-6ed7-4a78-b8d9-c86522f7ff63</id>
+      <masked>false</masked>
+      <name>monthElement</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>25ddaef5-2c10-4e20-83e4-94d77d2c9dad</id>
+      <masked>false</masked>
+      <name>yearElement</name>
+   </variable>
+</TestCaseEntity>
