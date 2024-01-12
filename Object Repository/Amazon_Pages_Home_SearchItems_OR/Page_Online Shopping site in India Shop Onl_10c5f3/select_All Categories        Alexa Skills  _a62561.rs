@@ -6,12 +6,12 @@
    <elementGuidId>b5d52cd6-a6dd-4804-813e-f9660eb9cc2a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#searchDropdownBox</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//select[@id='searchDropdownBox']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#searchDropdownBox</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

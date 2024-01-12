@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='u_0_0_j9']</value>
+         <value>//a[contains(text(),'Create new account')]</value>
       </entry>
       <entry>
          <key>CSS</key>

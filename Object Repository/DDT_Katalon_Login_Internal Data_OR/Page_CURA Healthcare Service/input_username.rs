@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>inputnav-search-submit-button</name>
+   <name>input_username</name>
    <tag></tag>
-   <elementGuidId>881e7c40-0ca5-40d3-8603-d46d850e37a1</elementGuidId>
+   <elementGuidId>f95f8b44-8d1b-4b3b-a2d7-8e2adde90af6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='nav-search-submit-button']</value>
+         <value>//input[@id='txt-username']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#nav-search-submit-button</value>
+         <value>#txt-username</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,86 +22,94 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>87c10e1b-ca41-4ef3-a0e3-7d7330b914ae</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>nav-search-submit-button</value>
-      <webElementGuid>6fcfc87e-4d10-497e-a2a0-bb2e002fb26f</webElementGuid>
+      <webElementGuid>fa39f734-922e-43e4-822f-07e662635073</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>8e37a213-2596-4d31-93e2-2cc36206ac19</webElementGuid>
+      <value>text</value>
+      <webElementGuid>a0967b3e-2e55-4a44-b79e-356e20d959c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>nav-input nav-progressive-attribute</value>
-      <webElementGuid>24ff1cf2-fe25-48ac-a6b5-63d331ce3cc2</webElementGuid>
+      <value>form-control</value>
+      <webElementGuid>72795d6e-d8df-499b-900a-be8a43b65fce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>txt-username</value>
+      <webElementGuid>73975d5c-72ab-4898-b93e-d9cf6d673d44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>username</value>
+      <webElementGuid>b61fa406-c3e4-43cd-b86d-25d38a314742</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Username</value>
+      <webElementGuid>bccf16ef-f0d5-4971-a8a8-7d258d945ebd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>autocomplete</name>
       <type>Main</type>
-      <value>Go</value>
-      <webElementGuid>0509068c-a0f0-4bb6-a92c-e4d33731e47c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>0</value>
-      <webElementGuid>b35b9799-0fc1-4ac6-954a-fbea0534e917</webElementGuid>
+      <value>off</value>
+      <webElementGuid>8599902d-572b-498f-8565-bcbf30fed8d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;nav-search-submit-button&quot;)</value>
-      <webElementGuid>90acfb93-b230-4710-9f7c-053bc3f5785e</webElementGuid>
+      <value>id(&quot;txt-username&quot;)</value>
+      <webElementGuid>b835abb4-0e9a-4f65-ab9e-20d1271067f8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='nav-search-submit-button']</value>
-      <webElementGuid>208e7109-4b56-4bd2-ac3c-4a9cb897dce6</webElementGuid>
+      <value>//input[@id='txt-username']</value>
+      <webElementGuid>8b217994-6728-4c10-acac-6ebb76134fdf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//span[@id='nav-search-submit-text']/input</value>
-      <webElementGuid>003fc80a-78b8-44b2-a779-818471067868</webElementGuid>
+      <value>//section[@id='login']/div/div/div[2]/form/div[2]/div/input</value>
+      <webElementGuid>7bdcc277-1599-440d-85cb-13190b06d0fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span/input</value>
-      <webElementGuid>e9c82fe2-c312-4f56-b367-09172d81c0df</webElementGuid>
+      <value>//div[2]/div/input</value>
+      <webElementGuid>d5be6206-66e3-4c66-b401-373a9079a829</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'nav-search-submit-button' and @type = 'submit']</value>
-      <webElementGuid>324ec48b-5d62-4341-86ad-25cfbedb9def</webElementGuid>
+      <value>//input[@type = 'text' and @id = 'txt-username' and @name = 'username' and @placeholder = 'Username']</value>
+      <webElementGuid>ce9ce897-a612-42c5-8676-8d6e06a22288</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

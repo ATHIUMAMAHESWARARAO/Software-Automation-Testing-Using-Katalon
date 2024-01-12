@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='u_0_0_5C']</value>
+         <value>//a[contains(text(),'Create new account')]</value>
       </entry>
       <entry>
          <key>CSS</key>

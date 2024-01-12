@@ -6,12 +6,12 @@
    <elementGuidId>d06b6473-5acb-41ff-ac54-5d62a280a375</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#twotabsearchtextbox</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='twotabsearchtextbox']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#twotabsearchtextbox</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

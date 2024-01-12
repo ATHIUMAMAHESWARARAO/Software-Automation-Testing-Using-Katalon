@@ -19,15 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.amazon.in')
+WebUI.navigateToUrl('https://www.amazon.com')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Amazon_Pages_Home_SearchItems_OR/Page_Online Shopping site in India Shop Onl_10c5f3/select_All Categories        Alexa Skills  _a62561'), 
-    'search-alias=stripbooks', true)
+WebUI.selectOptionByLabel(findTestObject('DDT_Amazon_Category_Validation_Excel_OR/Page_Amazon.com. Spend less. Smile more/CategoryElement'), 
+    category, false)
 
-WebUI.setText(findTestObject('Object Repository/Amazon_Pages_Home_SearchItems_OR/Page_Online Shopping site in India Shop Onl_10c5f3/input_field-keywords'), 
-    'Da vinci code')
+WebUI.setText(findTestObject('DDT_Amazon_Category_Validation_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'), 
+    item)
 
-WebUI.click(findTestObject('Object Repository/Amazon_Pages_Home_SearchItems_OR/Page_Online Shopping site in India Shop Onl_10c5f3/inputnav-search-submit-button'))
+WebUI.click(findTestObject('DDT_Amazon_Category_Validation_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button'))
 
 WebUI.closeBrowser()
 

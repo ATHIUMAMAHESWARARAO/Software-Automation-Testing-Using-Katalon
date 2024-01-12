@@ -34,3 +34,4 @@ WebUI.click(findTestObject('Cura_OR/Page_CURA Healthcare Service/button_Login'))
 WebUI.verifyElementPresent(findTestObject('Cura_OR/Page_CURA Healthcare Service/h2_Make Appointment'), 0)
 
 WebUI.closeBrowser()
+

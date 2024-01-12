@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_Validation of Amazon Category_Excel_001</name>
+   <name>TC_Validation of Amazon_Category_Excel_001</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f42966c5-d3cf-4961-bc40-7e2edf5070f8</testCaseGuid>
+   <testCaseGuid>be92de2c-c065-46e8-addc-4ff023ed11c6</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
+      <type>DATA_COLUMN</type>
       <value></value>
-      <variableId>408fc812-dd27-4fa0-91f5-fec2a4acc26d</variableId>
+      <variableId>8734d24f-c25e-421c-81da-8ddcbbed171f</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
+      <type>DATA_COLUMN</type>
       <value></value>
-      <variableId>28909532-95e3-4e2e-a1b4-0e3bab27e7c4</variableId>
+      <variableId>32adb2c1-d888-49df-a41d-7e53ebeea6c7</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>408fc812-dd27-4fa0-91f5-fec2a4acc26d</id>
+      <id>8734d24f-c25e-421c-81da-8ddcbbed171f</id>
       <masked>false</masked>
-      <name>Category</name>
+      <name>category</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>28909532-95e3-4e2e-a1b4-0e3bab27e7c4</id>
+      <id>32adb2c1-d888-49df-a41d-7e53ebeea6c7</id>
       <masked>false</masked>
-      <name>Item</name>
+      <name>item</name>
    </variable>
 </TestCaseEntity>

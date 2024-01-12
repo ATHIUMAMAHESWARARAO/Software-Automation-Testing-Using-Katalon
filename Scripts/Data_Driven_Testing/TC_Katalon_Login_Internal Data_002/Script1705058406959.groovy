@@ -19,15 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.amazon.com')
+WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.selectOptionByLabel(findTestObject('Amazon_Category_Validation_Excel_OR/Page_Amazon.com. Spend less. Smile more/CategoryElement'), 
-    'Books', true)
+WebUI.click(findTestObject('Object Repository/DDT_Katalon_Login_Internal Data_OR/Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.setText(findTestObject('Amazon_Category_Validation_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'), 
-    'Da vanci code')
+WebUI.setText(findTestObject('DDT_Katalon_Login_Internal Data_OR/Page_CURA Healthcare Service/input_username'), findTestData(
+        'DDT_TestData/Katalon_Login_Excel from folder').getValue('userName', 1))
 
-WebUI.click(findTestObject('Amazon_Category_Validation_Excel_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button'))
+WebUI.setText(findTestObject('DDT_Katalon_Login_Internal Data_OR/Page_CURA Healthcare Service/input_password'), findTestData(
+        'DDT_TestData/Katalon_Login_Excel from folder').getValue('password', 1))
+
+WebUI.click(findTestObject('Object Repository/DDT_Katalon_Login_Internal Data_OR/Page_CURA Healthcare Service/button_Login'))
 
 WebUI.closeBrowser()
 
